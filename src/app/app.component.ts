@@ -9,6 +9,7 @@ import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 export class AppComponent {
   title = "Angular Form Validation Tutorial";
   angForm: FormGroup;
+  
   constructor(private fb: FormBuilder) {
     this.createForm();
   }
