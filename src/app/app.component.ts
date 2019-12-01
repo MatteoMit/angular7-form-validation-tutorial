@@ -15,7 +15,8 @@ export class AppComponent {
   }
   createForm() {
     this.angForm = this.fb.group({
-      name: ["", Validators.required]
+      name: ["", Validators.required],
+      address: ["", Validators.required]
     });
   }
 }
